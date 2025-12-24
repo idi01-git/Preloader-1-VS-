@@ -62,18 +62,21 @@ html, body{
     transform: translate(-50%, -50%);
     display: flex;
     background: rgb(80,80,80);
+    gap: 0;
 }
 
 .loader-1{
     position: relative;
     background: #fff;
     width: 200px;
+    box-shadow: -1px 0 0 0 #fff, 1px 0 0 0 #fff;
 }
 
 .loader-2{
     position: relative;
     background: #fff;
     width: 100px;
+    backface-visibility: hidden;
 }
 
 .bar{
@@ -133,5 +136,4 @@ h1{
     background: #fff;
     top: 100px;
 }
-
 
